@@ -11,4 +11,4 @@ This repository contains my instructional design portfolio site, hosted on Verce
 - Improving Learning Through Course Redesign  
 
 ## About
-This portfolio showcases course design work focused on making higher education courses clearer, more accessible, and more supportive of learner success through practical, evidence-informed design decisions.
+This portfolio showcases course design work focused on improving clarity, access, and learner success in higher education through practical, evidence-informed design decisions.
