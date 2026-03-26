@@ -27,11 +27,13 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* LAYOUT */
 .container {
   width: min(920px, 92%);
   margin: 0 auto;
 }
 
+/* HEADER */
 .site-header {
   border-bottom: 1px solid var(--border);
   padding: 1.1rem 0;
@@ -42,74 +44,68 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
 }
 
 .site-name {
   font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: 0.01em;
+  font-size: 1.1rem;
 }
 
 nav a {
   margin-left: 1rem;
   color: var(--text);
   text-decoration: none;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
 }
 
-nav a:hover,
-nav a:focus-visible,
-.project-link:hover,
-.project-link:focus-visible,
-.site-footer a:hover,
-.site-footer a:focus-visible {
+nav a:hover {
   text-decoration: underline;
-  text-underline-offset: 0.14em;
 }
 
+/* HERO */
 .hero {
-  padding: 5.5rem 0 3rem;
+  padding: 5rem 0 2.5rem;
 }
 
 .eyebrow {
-  margin: 0 0 0.85rem;
-  color: var(--link);
-  font-size: 0.86rem;
-  font-weight: 700;
+  font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: var(--link);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
 }
 
 .hero h1 {
-  font-size: clamp(2.4rem, 4vw, 3.4rem);
-  line-height: 1.1;
+  font-size: 2.8rem;
   margin: 0 0 1rem;
-  letter-spacing: -0.02em;
 }
 
 .hero-intro {
-  max-width: 760px;
-  font-size: 1.14rem;
-  color: var(--text);
-  margin: 0 0 0.9rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.75rem;
 }
 
 .hero-supporting {
-  max-width: 760px;
   color: var(--muted);
-  font-size: 1.02rem;
-  margin: 0;
 }
 
+/* HERO DIVIDER */
+.hero-divider {
+  width: 84px;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--link), #93c5fd);
+  margin-bottom: 3rem;
+}
+
+/* PROJECTS */
 .projects {
-  padding: 2rem 0 4.5rem;
+  padding-bottom: 4rem;
 }
 
 .projects h2 {
-  margin: 0 0 1.75rem;
-  font-size: 1.5rem;
-  letter-spacing: -0.01em;
+  margin-bottom: 1.5rem;
 }
 
 .project-list {
@@ -120,102 +116,66 @@ nav a:focus-visible,
 .project-card {
   border: 1px solid var(--border);
   padding: 1.5rem;
-  border-radius: 12px;
-  background: linear-gradient(to bottom, var(--surface), var(--surface-accent));
-  transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+  border-radius: 10px;
+  background: var(--surface);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .project-card:hover {
-  border-color: #d1d5db;
-  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
   transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
 
 .project-card h3 {
-  margin: 0 0 0.8rem;
-  font-size: 1.14rem;
-  line-height: 1.3;
-  letter-spacing: -0.01em;
+  margin-top: 0;
 }
 
 .project-card p {
-  margin: 0 0 0.95rem;
   color: var(--muted);
 }
 
-.project-link {
+/* BUTTON */
+.project-button {
   display: inline-block;
-  color: var(--link);
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: var(--link);
+  color: white;
   text-decoration: none;
   font-weight: 700;
-  margin-top: 0.2rem;
+  font-size: 0.9rem;
 }
 
+.project-button:hover {
+  background: #1d4ed8;
+}
+
+/* STATUS PILL */
 .project-status {
   display: inline-block;
-  margin-top: 0.15rem;
-  padding: 0.24rem 0.55rem;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 999px;
   background: var(--accent-soft);
   color: #1d4ed8;
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 
+/* FOOTER */
 .site-footer {
   border-top: 1px solid var(--border);
-  padding: 2rem 0 3rem;
+  padding: 2rem 0;
+  font-size: 0.9rem;
   color: var(--muted);
-  font-size: 0.96rem;
-}
-
-.site-footer p {
-  margin: 0.4rem 0;
 }
 
 .site-footer a {
   color: var(--link);
   text-decoration: none;
 }
-/* HERO DIVIDER */
-.hero-divider {
-  width: 84px;
-  height: 4px;
-  border-radius: 999px;
-  background: linear-gradient(to right, var(--link), #93c5fd);
-  margin: 0 0 3rem;
-}
 
-/* BUTTON STYLE FOR LIVE COURSE */
-.project-button {
-  display: inline-block;
-  margin-top: 0.35rem;
-  padding: 0.6rem 1rem;
-  border-radius: 999px;
-  background: var(--link);
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 0.95rem;
-  transition: background 160ms ease, transform 160ms ease, box-shadow 160ms ease;
-}
-
-.project-button:hover,
-.project-button:focus-visible {
-  background: #1d4ed8;
-  text-decoration: none;
-  transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(30, 64, 175, 0.18);
-}
-
-/* STATUS PILL */
-.project-status {
-  display: inline-block;
-  margin-top: 0.15rem;
-  padding: 0.25rem 0.6rem;
-  border-radius: 999px;
-  background: #e0ecff;
-  color: #1d4ed8;
-  font-size: 0.85rem;
-  font-weight: 700;
+.site-footer a:hover {
+  text-decoration: underline;
 }
