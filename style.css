@@ -177,3 +177,45 @@ nav a:focus-visible,
   color: var(--link);
   text-decoration: none;
 }
+/* HERO DIVIDER */
+.hero-divider {
+  width: 84px;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--link), #93c5fd);
+  margin: 0 0 3rem;
+}
+
+/* BUTTON STYLE FOR LIVE COURSE */
+.project-button {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: var(--link);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: background 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.project-button:hover,
+.project-button:focus-visible {
+  background: #1d4ed8;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(30, 64, 175, 0.18);
+}
+
+/* STATUS PILL */
+.project-status {
+  display: inline-block;
+  margin-top: 0.15rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: #e0ecff;
+  color: #1d4ed8;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
