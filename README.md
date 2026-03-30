@@ -11,7 +11,7 @@ This repository contains my instructional design portfolio site, hosted on Verce
 
 ## Portfolio URL
 
-View the live portfolio here: [(https://carrie-portfolio-delta.vercel.app/)
+View the live portfolio here: https://carrie-portfolio-delta.vercel.app/
 
 ## About
 
