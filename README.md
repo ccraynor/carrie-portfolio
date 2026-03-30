@@ -6,9 +6,6 @@ This repository contains my instructional design portfolio site, hosted on Verce
 
 - Designing Access-Oriented Courses in Higher Education
 - Evidence-Based Course Review for Access, Clarity, and Learner Success
-
-## In Development
-
 - Accessible Course Architecture for Learner Success
 - Improving Learning Through Course Redesign
 
