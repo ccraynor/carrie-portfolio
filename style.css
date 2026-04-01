@@ -208,3 +208,61 @@ nav a:focus-visible,
   color: var(--link);
   text-decoration: none;
 }
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.project-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  background: #3151c6;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.project-button:hover,
+.project-button:focus {
+  background: #2743a8;
+  transform: translateY(-1px);
+}
+
+.secondary-button {
+  background: #ffffff;
+  color: #3151c6;
+  border: 1px solid #3151c6;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  background: #f5f7ff;
+  color: #2743a8;
+  border-color: #2743a8;
+}
+
+.case-study-page {
+  max-width: 860px;
+}
+
+.case-study-page h1 {
+  margin-bottom: 1rem;
+}
+
+.case-study-page h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.case-study-page p,
+.case-study-page li {
+  line-height: 1.7;
+}
+
+.case-study-page ul {
+  padding-left: 1.25rem;
+}
