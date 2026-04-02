@@ -253,3 +253,26 @@ nav a:focus-visible,
   color: var(--link);
   text-decoration: none;
 }
+.snapshot-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+}
+
+.snapshot-table th {
+  text-align: left;
+  width: 220px;
+  background: #f3f4f6;
+  padding: 0.9rem;
+  font-weight: 700;
+  vertical-align: top;
+  border: 1px solid var(--border);
+}
+
+.snapshot-table td {
+  padding: 0.9rem;
+  border: 1px solid var(--border);
+  vertical-align: top;
+  line-height: 1.6;
+}
