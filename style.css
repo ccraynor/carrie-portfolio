@@ -455,3 +455,12 @@ nav a:focus-visible,
     padding: 0.65rem 0.7rem;
   }
 }
+/* HERO SPACING ADJUSTMENT */
+
+.hero-subhead {
+  margin-bottom: 1.1rem;
+}
+
+.hero-supporting {
+  margin-bottom: 0.8rem;
+}
