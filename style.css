@@ -464,3 +464,7 @@ nav a:focus-visible,
 .hero-supporting {
   margin-bottom: 0.8rem;
 }
+
+.section {
+  margin-top: 2.5rem;
+}
