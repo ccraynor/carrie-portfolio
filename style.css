@@ -276,3 +276,23 @@ nav a:focus-visible,
   vertical-align: top;
   line-height: 1.6;
 }
+.case-study-figure {
+  margin: 1.5rem 0 2rem;
+}
+
+.case-study-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.case-study-figure figcaption {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
