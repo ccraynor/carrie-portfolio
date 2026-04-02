@@ -310,3 +310,148 @@ nav a:focus-visible,
   font-size: 0.96rem;
   line-height: 1.5;
 }
+/* =========================================
+   CASE STUDY PAGE SPACING + RHYTHM PATCH
+   ========================================= */
+
+.case-study-page {
+  max-width: 920px;
+}
+
+.case-study-page h1 {
+  margin-bottom: 1.5rem;
+}
+
+.case-study-page h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.case-study-page p {
+  margin: 0 0 0.8rem 0;
+  line-height: 1.45;
+}
+
+.case-study-page .eyebrow {
+  margin-bottom: 0.5rem;
+}
+
+.case-section {
+  margin-top: 2rem;
+}
+
+.case-section:first-of-type {
+  margin-top: 0;
+}
+
+.executive-summary p:last-child,
+.positioning-statement p:last-child,
+.challenge-section p:last-child,
+.design-strategy p:last-child,
+.learning-architecture p:last-child,
+.scaffolding-section p:last-child,
+.authentic-performance p:last-child,
+.outcome-reflection p:last-child {
+  margin-bottom: 0;
+}
+
+.compact-top {
+  margin-top: 1.5rem;
+}
+
+/* Project Snapshot */
+.snapshot-table {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.snapshot-table th,
+.snapshot-table td {
+  vertical-align: top;
+  line-height: 1.35;
+  padding: 0.7rem 0.8rem;
+}
+
+/* What This Project Demonstrates */
+.demonstrates-list {
+  margin-top: 0.9rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.demonstrates-item {
+  margin: 0;
+}
+
+.demonstrates-item strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+/* Reasoning sequence */
+.reasoning-sequence {
+  margin: 0.9rem 0;
+  font-weight: 700;
+}
+
+/* Figures */
+.case-study-figure {
+  margin: 1.75rem 0 1.75rem;
+}
+
+.case-study-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.case-study-figure figcaption {
+  margin-top: 0.45rem;
+  line-height: 1.35;
+}
+
+/* Key Design Decisions */
+.decisions-intro {
+  margin-bottom: 1rem;
+}
+
+.decision-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.decision-item p:last-child {
+  margin-bottom: 0;
+}
+
+/* Ending rhythm */
+.outcome-reflection p {
+  margin-bottom: 0.95rem;
+}
+
+/* Buttons */
+.project-actions {
+  margin-top: 2rem;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .case-study-page h2 {
+    margin-top: 1.75rem;
+  }
+
+  .case-section {
+    margin-top: 1.75rem;
+  }
+
+  .case-study-figure {
+    margin: 1.5rem 0;
+  }
+
+  .snapshot-table th,
+  .snapshot-table td {
+    padding: 0.65rem 0.7rem;
+  }
+}
