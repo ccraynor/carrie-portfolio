@@ -225,13 +225,14 @@ nav a:focus-visible,
 }
 
 .case-study-page h2 {
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.85rem;
 }
 
 .case-study-page p,
 .case-study-page li {
-  line-height: 1.7;
+  line-height: 1.75;
+  font-size: 1.02rem;
 }
 
 .case-study-page ul {
@@ -291,8 +292,8 @@ nav a:focus-visible,
 }
 
 .case-study-figure figcaption {
-  margin-top: 0.65rem;
-  color: var(--muted);
-  font-size: 0.95rem;
+  margin-top: 0.7rem;
+  color: #4b5563;
+  font-size: 0.96rem;
   line-height: 1.5;
 }
