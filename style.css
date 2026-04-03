@@ -512,3 +512,12 @@ nav a:focus-visible,
   max-width: 900px;
   margin: 0.75rem auto 0;
 }
+.case-study-closing {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.project-actions {
+  margin-top: 1.5rem;
+}
