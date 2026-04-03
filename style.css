@@ -503,3 +503,12 @@ nav a:focus-visible,
 .site-footer {
   margin-top: 2rem;
 }
+.case-study-figure-wide {
+  text-align: center;
+}
+
+.case-study-figure-wide figcaption {
+  text-align: left;
+  max-width: 900px;
+  margin: 0.75rem auto 0;
+}
