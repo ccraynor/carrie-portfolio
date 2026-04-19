@@ -287,6 +287,12 @@ nav a:hover {
   max-width: 760px;
 }
 
+.proof-supporting {
+  color: var(--muted);
+  max-width: 760px;
+  margin-top: 0.5rem;
+}
+
 /* CASE STUDY CTA */
 .case-study-cta {
   padding: 1rem 0 0;
