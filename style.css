@@ -107,6 +107,36 @@ nav a:hover {
   margin: 2rem 0 3rem;
 }
 
+/* PROOF HIGHLIGHT */
+.proof-highlight {
+  padding: 2rem 0 1rem;
+}
+
+.proof-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 1rem;
+}
+
+.proof-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  background: #f9fafb;
+}
+
+.proof-item strong {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.proof-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 /* PROJECTS */
 .projects {
   padding-bottom: 1rem;
@@ -265,11 +295,21 @@ nav a:hover {
 
 /* PROOF SECTION */
 .proof-section {
-  padding: 2rem 0 1rem;
+  padding: 3rem 0 1.5rem;
 }
 
 .proof-section h2 {
   margin-bottom: 0.75rem;
+}
+
+.proof-section p {
+  margin-bottom: 0.75rem;
+}
+
+.proof-supporting {
+  color: var(--muted);
+  max-width: 760px;
+  margin-top: 0.5rem;
 }
 
 .proof-list {
@@ -285,53 +325,6 @@ nav a:hover {
 .proof-closing {
   color: var(--text);
   max-width: 760px;
-}
-
-.proof-supporting {
-  color: var(--muted);
-  max-width: 760px;
-  margin-top: 0.5rem;
-}
-.proof-section p {
-  margin-bottom: 0.75rem;
-}
-
-/* CASE STUDY CTA */
-.case-study-cta {
-  padding: 1rem 0 0;
-}
-
-.cta-card {
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 1.75rem;
-  background: #f9fafb;
-}
-
-.cta-card h2 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-.cta-card p {
-  color: var(--muted);
-  margin-bottom: 1rem;
-}
-
-.cta-button {
-  display: inline-block;
-  padding: 0.7rem 1.15rem;
-  border-radius: 999px;
-  background: var(--link);
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-}
-
-.cta-button:hover {
-  background: var(--link-hover);
-  transform: translateY(-1px);
 }
 
 /* CASE STUDY PAGES */
