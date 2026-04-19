@@ -292,6 +292,9 @@ nav a:hover {
   max-width: 760px;
   margin-top: 0.5rem;
 }
+.proof-section p {
+  margin-bottom: 0.75rem;
+}
 
 /* CASE STUDY CTA */
 .case-study-cta {
