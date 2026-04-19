@@ -93,8 +93,10 @@ nav a:hover {
 }
 
 .projects-cycle {
+  margin: 0 0 1.75rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  color: var(--text);
 }
 
 .project-list {
@@ -107,6 +109,22 @@ nav a:hover {
   border-radius: 12px;
   padding: 1.5rem;
   background: #f9fafb;
+}
+
+.project-card:nth-child(1) {
+  border-left: 4px solid #3b82f6;
+}
+
+.project-card:nth-child(2) {
+  border-left: 4px solid #6366f1;
+}
+
+.project-card:nth-child(3) {
+  border-left: 4px solid #10b981;
+}
+
+.project-card:nth-child(4) {
+  border-left: 4px solid #f59e0b;
 }
 
 .project-type {
@@ -124,6 +142,7 @@ nav a:hover {
 .project-lead {
   font-weight: 700;
   margin-bottom: 0.4rem;
+  color: var(--text);
 }
 
 .project-card p {
