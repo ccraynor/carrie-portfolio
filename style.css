@@ -86,7 +86,7 @@ nav a:focus-visible,
   letter-spacing: -0.02em;
 }
 
-.hero-intro {
+.hero-subhead {
   max-width: 760px;
   font-size: 1.14rem;
   color: var(--text);
@@ -100,12 +100,6 @@ nav a:focus-visible,
   margin: 0;
 }
 
-.hero-proof {
-  max-width: 760px;
-  margin-top: 0.75rem;
-  color: #374151;
-}
-
 .hero-divider {
   width: 84px;
   height: 4px;
@@ -114,29 +108,31 @@ nav a:focus-visible,
   margin: 0 0 3.5rem;
 }
 
-.projects {
+.section {
   padding: 0 0 4.5rem;
 }
 
-.projects h2 {
-  margin: 0 0 1.75rem;
+.section h2 {
+  margin: 0 0 1rem;
   font-size: 1.5rem;
   letter-spacing: -0.01em;
+}
+
+.projects-intro {
+  max-width: 760px;
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+}
+
+.projects-cycle {
+  margin: 0 0 1.75rem;
+  font-weight: 700;
+  color: var(--text);
 }
 
 .project-list {
   display: grid;
   gap: 1.5rem;
-}
-
-.project-tag {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #4b5563;
 }
 
 .project-card {
@@ -153,6 +149,16 @@ nav a:focus-visible,
   transform: translateY(-3px);
 }
 
+.project-type {
+  display: inline-block;
+  margin: 0 0 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4b5563;
+}
+
 .project-card h3 {
   margin: 0 0 0.8rem;
   font-size: 1.14rem;
@@ -163,6 +169,11 @@ nav a:focus-visible,
 .project-card p {
   margin: 0 0 0.95rem;
   color: var(--muted);
+}
+
+.project-outcome {
+  margin-top: 0.25rem;
+  color: var(--text);
 }
 
 .project-actions {
@@ -217,20 +228,7 @@ nav a:focus-visible,
 }
 
 .case-study-page {
-  max-width: 920px;
-}
-
-.case-study-page p,
-.case-study-page li {
-  line-height: 1.8;
-  font-size: 1.03rem;
-}
-
-.case-study-figure figcaption {
-  margin-top: 0.75rem;
-  color: #4b5563;
-  font-size: 0.98rem;
-  line-height: 1.55;
+  max-width: 860px;
 }
 
 .case-study-page h1 {
@@ -238,35 +236,19 @@ nav a:focus-visible,
 }
 
 .case-study-page h2 {
-  margin-top: 2.5rem;
-  margin-bottom: 0.85rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
 }
 
 .case-study-page p,
 .case-study-page li {
-  line-height: 1.75;
-  font-size: 1.02rem;
+  line-height: 1.7;
 }
 
 .case-study-page ul {
   padding-left: 1.25rem;
 }
 
-.site-footer {
-  border-top: 1px solid var(--border);
-  padding: 2rem 0 3rem;
-  color: var(--muted);
-  font-size: 0.96rem;
-}
-
-.site-footer p {
-  margin: 0.4rem 0;
-}
-
-.site-footer a {
-  color: var(--link);
-  text-decoration: none;
-}
 .snapshot-table {
   width: 100%;
   border-collapse: collapse;
@@ -290,6 +272,7 @@ nav a:focus-visible,
   vertical-align: top;
   line-height: 1.6;
 }
+
 .case-study-figure {
   margin: 1.5rem 0 2rem;
 }
@@ -305,206 +288,19 @@ nav a:focus-visible,
 }
 
 .case-study-figure figcaption {
-  margin-top: 0.7rem;
-  color: #4b5563;
-  font-size: 0.96rem;
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.95rem;
   line-height: 1.5;
 }
-/* =========================================
-   CASE STUDY PAGE SPACING + RHYTHM PATCH
-   ========================================= */
 
-.case-study-page {
-  max-width: 920px;
-}
-
-.case-study-page h1 {
-  margin-bottom: 1.5rem;
-}
-
-.case-study-page h2 {
-  margin-top: 2rem;
-  margin-bottom: 0.6rem;
-}
-
-.case-study-page p {
-  margin: 0 0 0.8rem 0;
-  line-height: 1.45;
-}
-
-.case-study-page .eyebrow {
-  margin-bottom: 0.5rem;
-}
-
-.case-section {
-  margin-top: 2rem;
-}
-
-.case-section:first-of-type {
-  margin-top: 0;
-}
-
-.executive-summary p:last-child,
-.positioning-statement p:last-child,
-.challenge-section p:last-child,
-.design-strategy p:last-child,
-.learning-architecture p:last-child,
-.scaffolding-section p:last-child,
-.authentic-performance p:last-child,
-.outcome-reflection p:last-child {
-  margin-bottom: 0;
-}
-
-.compact-top {
-  margin-top: 1.5rem;
-}
-
-/* Project Snapshot */
-.snapshot-table {
-  margin-top: 0.75rem;
-  margin-bottom: 0;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.snapshot-table th,
-.snapshot-table td {
-  vertical-align: top;
-  line-height: 1.35;
-  padding: 0.7rem 0.8rem;
-}
-
-/* What This Project Demonstrates */
-.demonstrates-list {
-  margin-top: 0.9rem;
-  display: grid;
-  gap: 0.9rem;
-}
-
-.demonstrates-item {
-  margin: 0;
-}
-
-.demonstrates-item strong {
-  display: block;
-  margin-bottom: 0.2rem;
-}
-
-/* Reasoning sequence */
-.reasoning-sequence {
-  margin: 0.9rem 0;
-  font-weight: 700;
-}
-
-/* Figures */
-.case-study-figure {
-  margin: 1.75rem 0 1.75rem;
-}
-
-.case-study-figure img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.case-study-figure figcaption {
-  margin-top: 0.45rem;
-  line-height: 1.35;
-}
-
-/* Key Design Decisions */
-.decisions-intro {
-  margin-bottom: 1rem;
-}
-
-.decision-list {
-  display: grid;
-  gap: 1rem;
-}
-
-.decision-item p:last-child {
-  margin-bottom: 0;
-}
-
-/* Ending rhythm */
-.outcome-reflection p {
-  margin-bottom: 0.95rem;
-}
-
-/* Buttons */
-.project-actions {
-  margin-top: 2rem;
-}
-
-/* Mobile */
-@media (max-width: 700px) {
-  .case-study-page h2 {
-    margin-top: 1.75rem;
-  }
-
-  .case-section {
-    margin-top: 1.75rem;
-  }
-
-  .case-study-figure {
-    margin: 1.5rem 0;
-  }
-
-  .snapshot-table th,
-  .snapshot-table td {
-    padding: 0.65rem 0.7rem;
-  }
-}
-/* HERO SPACING ADJUSTMENT */
-
-.hero-subhead {
-  margin-bottom: 1.1rem;
-}
-
-.hero-supporting {
-  margin-bottom: 0.8rem;
-}
-
-.section {
-  margin-top: 2.5rem;
-}
-
-.section h2 {
-  margin-bottom: 1.25rem;
-}
-
-.project-card {
-  margin-bottom: 1.25rem;
-}
-
-.project-card:last-child {
-  margin-bottom: 0;
-}
-
-.project-card h3 {
-  margin-bottom: 0.65rem;
-}
-
-.project-card p {
-  margin-bottom: 0.8rem;
-}
-
-.project-card .project-type {
-  margin-bottom: 0.55rem;
-}
-
-.project-actions {
-  margin-top: 0.9rem;
-  display: flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
-}
-
-.site-footer {
-  margin-top: 2rem;
-}
 .case-study-figure-wide {
   text-align: center;
+}
+
+.case-study-figure-wide img {
+  width: 100%;
+  max-width: 900px;
 }
 
 .case-study-figure-wide figcaption {
@@ -512,12 +308,25 @@ nav a:focus-visible,
   max-width: 900px;
   margin: 0.75rem auto 0;
 }
+
 .case-study-closing {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-weight: 500;
 }
 
-.project-actions {
-  margin-top: 1.5rem;
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 2rem 0 3rem;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.site-footer p {
+  margin: 0.4rem 0;
+}
+
+.site-footer a {
+  color: var(--link);
+  text-decoration: none;
 }
