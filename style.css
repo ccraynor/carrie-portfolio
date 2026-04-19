@@ -108,7 +108,7 @@ nav a:hover {
 .hero h1 {
   font-size: 2.8rem;
   margin: 0.5rem 0 1rem;
-  max-width: 22ch;
+  max-width: 20ch;
 }
 
 .hero-subhead {
@@ -117,10 +117,32 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 
+.hero-tags {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.hero-tags span {
+  background: #f3f4f6;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 .hero-supporting {
   color: var(--muted);
   max-width: 66ch;
   margin-bottom: 0.9rem;
+}
+
+.hero-role-focus {
+  font-weight: 500;
 }
 
 .hero-credibility {
