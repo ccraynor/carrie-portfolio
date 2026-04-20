@@ -6,21 +6,25 @@
   --border: #e5e7eb;
   --bg: #ffffff;
 
+  /* REVIEW (blue) */
   --review: #2563eb;
-  --review-bg: #eff6ff;
+  --review-bg: #f5f8ff;
   --review-hover: #1d4ed8;
 
-  --diagnose: #dc2626;
-  --diagnose-bg: #fef2f2;
-  --diagnose-hover: #b91c1c;
+  /* DIAGNOSE (softened red) */
+  --diagnose: #b91c1c;
+  --diagnose-bg: #fdf4f4;
+  --diagnose-hover: #991b1b;
 
-  --structure: #059669;
-  --structure-bg: #ecfdf5;
-  --structure-hover: #047857;
+  /* STRUCTURE (muted green) */
+  --structure: #047857;
+  --structure-bg: #f3faf7;
+  --structure-hover: #065f46;
 
-  --redesign: #d97706;
-  --redesign-bg: #fffbeb;
-  --redesign-hover: #b45309;
+  /* REDESIGN (muted amber) */
+  --redesign: #c2410c;
+  --redesign-bg: #fffbf3;
+  --redesign-hover: #9a3412;
 }
 
 /* RESET */
